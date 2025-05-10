@@ -12,6 +12,9 @@ class Program
         string guess = Console.ReadLine();
         int numberGuess = int.Parse(guess);
 
+        int count = 1;
+
+
         if (number == numberGuess)
         {
             Console.WriteLine("Congratulations!!! You guessed it.");
@@ -30,6 +33,7 @@ class Program
             while (!(number == numberGuess))
             {
                 Console.WriteLine("What is your guess? ");
+                count = count ++;
                 guess = Console.ReadLine();
                 numberGuess = int.Parse(guess);
 
@@ -46,7 +50,9 @@ class Program
                     Console.WriteLine("Guess lower.");
                 }
             }
-            
+
+        Console.WriteLine($"Number of guesses: {count}");
+
         }
 
         
