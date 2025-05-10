@@ -33,7 +33,7 @@ class Program
             while (!(number == numberGuess))
             {
                 Console.WriteLine("What is your guess? ");
-                count = count ++;
+                count = count +1;
                 guess = Console.ReadLine();
                 numberGuess = int.Parse(guess);
 
