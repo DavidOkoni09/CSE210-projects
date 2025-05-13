@@ -13,9 +13,12 @@ partial class Program
         job1._endYear = 2022;
 
         Job job2 = new Job();
-        job2._jobTitle = "Editor";
-        
+        job2._jobTitle = "Developer";
+        job2._companyName = "Apple";
+        job2._startYear = 2020;
+        job2._endYear = 2025;
 
         Console.WriteLine(job1._companyName);
+        Console.WriteLine(job2._companyName);
     }
 }
