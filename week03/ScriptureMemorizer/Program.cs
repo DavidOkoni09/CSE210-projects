@@ -1,3 +1,5 @@
+// As the creativity, I made the program to randomly select words from a those that are not already hidden.
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
