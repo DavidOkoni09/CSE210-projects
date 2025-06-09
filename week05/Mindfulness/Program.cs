@@ -9,6 +9,7 @@ class Program
         {"Reflecting Activity", 0},
         {"Listing Activity", 0}
     };
+    
     static void Main(string[] args)
     {
         bool running = true;
