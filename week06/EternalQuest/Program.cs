@@ -1,9 +1,11 @@
 using System;
-
+// Added a level up system to the program
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
-    }
+        GoalManager manager = new GoalManager();
+        manager.Start();
+
+    } 
 }

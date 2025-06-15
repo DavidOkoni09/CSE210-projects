@@ -1,0 +1,4 @@
+10, 1, 1000
+SimpleGoal:Go to the grocery store on monday,Buy graoceries for the house,50,False
+ChecklistGoal:Wake up early by 6am,waking up early,10,1000,20,1
+SimpleGoal:Feed the ducks,feed the ducks,1000,False
